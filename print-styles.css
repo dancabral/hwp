@@ -1,6 +1,6 @@
-
-body.print-page-body * {
-font-family: 'Georgia', serif !important;
-    font-size:1.4em !important;
-    line-height:1.6em !important;
+body.pfcom-site.source-referral {
+    background-image: none;
+    font-family: 'Georgia', serif !important;
+    font-size: 1.4em !important;
+    line-height: 1.6em !important;
 }
