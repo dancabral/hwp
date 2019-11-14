@@ -2,6 +2,12 @@
    body #printfriendly { -webkit-print-color-adjust: exact;}
 }
 
+/* Hides the Page Title and Source URL */
+
+#printfriendly #pf-src {
+    display:none;
+}
+
 #printfriendly {
 font-family: 'Georgia', serif !important;
     font-size:1.4em !important;
