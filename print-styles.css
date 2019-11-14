@@ -1,8 +1,8 @@
-@media print {
+/* @media print {
    body #printfriendly { -webkit-print-color-adjust: exact;}
 }
 
-/* Hides the Page Title and Source URL */
+ Hides the Page Title and Source URL 
 
 #printfriendly #pf-src {
     display:none;
@@ -12,5 +12,25 @@
 font-family: 'Georgia', serif !important;
     font-size:1.4em !important;
     line-height:1.6em !important;
+}*/
+
+/* This will align images to the left */
+#printfriendly img{
+    float:left!important;
+    margin-top: 12px!important;
+    margin-right: 12px!important;
 }
 
+/* Changes font family and size */
+
+#printfriendly {
+    font-family: Arial!important;
+    font-size: 14px!important;
+}
+
+/* Changes header color */
+
+#printfriendly h1, #printfriendly h2, #printfriendly h3, #printfriendly h4 {
+    color: Green!important;
+}
+ 
